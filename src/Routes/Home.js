@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
-import Header from "./components/Header";
-import styled from "styled-components";
-import Pesquisa from "./components/Pesquisa";
-import UltimosLancamentos from "./components/UltimosLancamentos";
-import CardRecomenda from "./components/CardRecomenda";
-import imagemLivro from "./imgs/livro2.png"
 
+import styled from "styled-components";
+import Pesquisa from "../components/Pesquisa";
+import UltimosLancamentos from "../components/UltimosLancamentos";
+import CardRecomenda from "../components/CardRecomenda";
+import imagemLivro from "../imgs/livro.png"
 // styles
 const AppContainer = styled.div`
     width: 100vw;
@@ -13,10 +12,9 @@ const AppContainer = styled.div`
     overflow-x:hidden;
 `;
 // styles
-function App() {
+function Home() {
   return (
     <AppContainer>
-      <Header />
       <Pesquisa />
       <UltimosLancamentos />
       <CardRecomenda
@@ -34,4 +32,4 @@ function App() {
     </AppContainer>
   );
 }
-export default App;
+export default Home;

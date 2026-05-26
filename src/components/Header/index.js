@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Logo from "../logo";
 import Menu from "../menu";
 import styled from 'styled-components';
@@ -13,7 +14,9 @@ const HeaderContainer = styled.header`
 function Header(){
     return(
         <HeaderContainer>
+        <Link to="/">
         <Logo />
+        </Link>
         <Menu />
       </HeaderContainer>
     )
