@@ -9,10 +9,12 @@ import Favoritos from "./Routes/Favoritos";
 //Style
 const GloalStyle = createGlobalStyle`
   body {
+    background-image: linear-gradient(90deg, #002f52 35%, #326589 165%);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

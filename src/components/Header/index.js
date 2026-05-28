@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 // styles
 const HeaderContainer = styled.header`
+    background-color: white;
     display: flex;
     justify-content: center;
     padding: 0 2rem;
